@@ -1,0 +1,130 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.containerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.productContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #F9F1E7, #56B280);
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    gap: 10px;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.productContent:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.productDetails p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.productImage {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.productImage:hover {
+    transform: scale(1.05);
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.productTitle {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.4;
+}
+
+.removeBtn {
+    background-color: #F9F1E7;
+    color: #56B280;
+    border: 1px solid #56B280;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 110px;
+    transition: all 0.3s ease;
+}
+
+.removeBtn:hover {
+    background-color: #56B280;
+    color: #F9F1E7;
+}
+
+.productActions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .mincbtn,
+    .plusbtn {
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        color: white;
+        background-color: #56B280;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+.mincbtn:hover,
+.plusbtn:hover {
+    background-color: #397654;
+}
+.counterStyle {
+    width: 40px;
+    height: 32px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+}

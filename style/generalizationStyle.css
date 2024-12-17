@@ -1,0 +1,103 @@
+body {
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    z-index: 2;
+}
+
+#navLinks {
+    display: flex;
+    vertical-align: middle;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#navActions {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer {
+    background-color: var(--black, #272727);
+    padding-top: 60px;
+    padding-bottom: 55px;
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-top: 70px;
+}
+
+#footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footerLogo {
+    padding-top: 16px;
+    padding-right: 14px;
+    padding-bottom: 20px;
+}
+
+#footerLogo-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: white;
+}
+
+#footerDetails {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+#footerDetails p {
+    color: #E1E1E1;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+.btnStyle {
+    background-color: #55B17F;
+    border: transparent;
+    padding: 15px 25px 15px 25px;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btnStyle:hover {
+    background-color: #075329;
+}
+
+.CounterCart {
+    color: red;
+    font-size: 10pt;
+    font-weight: bold;
+    position: sticky
+}

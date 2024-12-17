@@ -1,0 +1,145 @@
+/* Style for Poppins, Medium, 16px, Line height 28.8 */
+.poppins-medium-16 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 16px;
+    line-height: 28.8px;
+}
+
+/* Style for Roboto, Medium, 20px, Line height 27.6 */
+.roboto-medium-20 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 20px;
+    line-height: 27.6px;
+}
+
+/* Style for Poppins, Medium, 16px, Line height 27.6 */
+.poppins-medium-16-alt {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 16px;
+    line-height: 27.6px;
+}
+
+/* Style for Roboto, Medium, 16px, Line height 25.6 */
+.roboto-medium-16 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+/* Style for Roboto, Medium, 16px, Auto Line height */
+.roboto-medium-16-auto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 16px;
+    line-height: normal;
+    /* Auto */
+}
+
+/* Style for Roboto, Medium, 14px, Line height 25.6 */
+.roboto-medium-14 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 14px;
+    line-height: 25.6px;
+}
+
+/* Style for Helvetica, Regular, 14px, Line height 15.6 */
+.helvetica-regular-14 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    /* Regular */
+    font-size: 14px;
+    line-height: 15.6px;
+}
+
+/* Style for Helvetica, Regular, 14px, Line height 25.6 */
+.helvetica-regular-14-alt {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    /* Regular */
+    font-size: 14px;
+    line-height: 25.6px;
+}
+
+/* Style for Avenir, Medium, 16px, Line height 28.8 */
+.avenir-medium-16 {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 16px;
+    line-height: 28.8px;
+}
+
+/* Style for Helvetica, Regular, 16px, Line height 25.6 */
+.helvetica-regular-16 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    /* Regular */
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+/* Style for Roboto, Medium, 20.6px, Auto Line height */
+.roboto-medium-20-6-auto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 20.6px;
+    line-height: normal;
+    /* Auto */
+}
+
+/* Style for Roboto, Medium, 20px, Line height 25.6 */
+.roboto-medium-20-alt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* Medium */
+    font-size: 20px;
+    line-height: 25.6px;
+}
+
+.poppins-medium-40 {
+    color: #0B254B;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px;
+    /* 144% */
+    letter-spacing: -0.9px;
+}
+
+.poppins-medium-26 {
+    color: var(--black, #272727);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px;
+    /* 221.538% */
+    letter-spacing: -0.9px;
+}
+
+.poppins-bold-26{
+    color: var(--green, #56B280);
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 57.6px; /* 221.538% */
+letter-spacing: -0.9px;
+}

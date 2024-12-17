@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styles\\generalizeStyle.css">
+        <link rel="stylesheet" href="Styles\\login.css">
+        <link rel="icon" type="image/x-icon" href="wwwroot/Icons/icon-logo.png">
+        <title>Candleaf: LogIn Page</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="containerSection">
+                <section class="formContainer">
+                    <div class="welcoming">
+                        <h1 style="align-items: center;">Welcome back!</h1>
+                        <p>Enter your Credentials to access your account.</p>
+                    </div>
+                    <form action method="get">
+                        <div class="inputFieldContainer">
+                            <input id="usr" class="inputFieldStyle" type="text"
+                                placeholder="Name">
+                            <span class="spanError"></span>
+                            <input id="usrEmail" class="inputFieldStyle"
+                                type="text"
+                                placeholder="Email">
+                            <span class="spanError"></span>
+                            <input id="password" class="inputFieldStyle"
+                                type="password"
+                                placeholder="Password">
+                            <span class="spanError"></span>
+                            <input id="confirmPassword" class="inputFieldStyle"
+                                type="password"
+                                placeholder="Confirm Password">
+                            <span class="spanError"></span>
+                            <input id="submitBtn" class="btnStyle" type="submit"
+                                value="Log In">
+                            <span class="spanError"></span>
+                        </div>
+                    </form>
+                </section>
+                <section class="imageStyleContainer">
+                    <img src="./assets/fishon.png" alt="samimage"
+                        id="loginImage">
+                </section>
+            </div>
+        </main>
+        <script src="./scripts/logIn.js"></script>
+    </body>
+
+</html>

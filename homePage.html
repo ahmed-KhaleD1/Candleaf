@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/homeStyle.css" rel="stylesheet">
+    <link href="style/textStyle.css" rel="stylesheet">
+    <link href="style/generalizationStyle.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="wwwroot/Icons/icon-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Candleaf</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <img src="assets\logo.png">
+        <div id="navLinks">
+            <a class="roboto-medium-16">Home</a>
+            <a class="roboto-medium-16">Contact Us</a>
+        </div>
+
+        <div id="navActions">
+            <a class="roboto-medium-16" id="userName"></a><a class="roboto-medium-16" style="cursor:pointer" id="signOutBtn">SignOut</a>
+            <a href="cartPage.htm"> <span class="CounterCart" id="CounterCart"></span><img src="assets/Cart.png"></a>
+        </div>
+
+    </nav>
+
+    <main>
+        <section id="sliderSection">
+            <p class="poppins-medium-40">Popular Proucts</p>
+            <div class="slider-container">
+                <button id="slideLeft" class="slider-btn"><i class="fa fa-chevron-left"></i></button>
+                <div class="slider" id="slider">
+
+                </div>
+                <button id="slideRight" class="slider-btn"><i class="fa fa-chevron-right"></i></button>
+            </div>
+
+        </section>
+        <section>
+            <p class="poppins-medium-40">Our Products</p>
+            <div id="categoryTags">
+
+            </div>
+            <div id="products-grid">
+            </div>
+        </section>
+        <div id="snackbar"></div>
+    </main>
+
+    <footer>
+        <hr>
+        <div id="footerContainer">
+            <div id="footerLogo-container">
+                <img id="footerLogo" src="assets/footer-logo.png">
+                <span>Your natural candle made for your home and for your
+                    wellness.</span>
+            </div>
+            <div id="footerDetails">
+                <p style="color: #56B280;">Discovery</p>
+                <p style="color: #56B280;">About</p>
+                <p style="color: #56B280;">Info</p>
+                <p>New season</p>
+                <p>Help</p>
+                <p>Contact us</p>
+                <p>Most searched</p>
+                <p>Shipping</p>
+                <p>Privacy Policies</p>
+                <p>Most selled</p>
+                <p>Affiliate</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div style="display: flex;justify-content: end;padding-top: 60px;">
+                <a href="#top">
+                    <i class="fa fa-arrow-circle-up iconStyle" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts/home.js"></script>
+</body>
+
+</html>

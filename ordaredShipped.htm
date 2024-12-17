@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styles\\generalizeStyle.css">
+        <link rel="stylesheet" href="Styles\\orderedShipped.css">
+
+        <title>Cart Page</title>
+    </head>
+    <body>
+        <main>
+            <section class="sectionShipping">
+
+                <div class="leftContentContainer">
+                    <img src="wwwroot\\Icons\\right.png" style="width: 100px;"
+                        alt="logo">
+                    <h2>Payment Confirmed</h2>
+                    <p>Order #123456</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adip</p>
+                    <button class="btnStyle" onclick="onBack()">Back To Shopping</button>
+                </div>
+
+                <div class="rightContentContainer">
+                    <div class="row tableHeader">
+                        <div class="col-2">Image</div>
+                        <div class="col-3">Product Name</div>
+                        <div class="col-2">Price</div>
+                        <div class="col-2">Quantity</div>
+                        <div class="col-2">Total Price</div>
+
+                    </div>
+                    <div class="row" style=" margin-left: 16px;margin-right: 16px;" id="productTable">
+                       
+                    </div>
+                    <hr style="background-color: black;margin-bottom: 16px;margin-top: 8px;">
+                    <div class="row">
+                        <div class="col-10"></div>
+                        <div class="col-2 tableRow" id="totalPrice"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="./scripts/ordaredShipped.js"></script>
+    </body>
+</html>

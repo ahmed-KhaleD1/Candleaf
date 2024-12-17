@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border: none;
+    background-color: #ffffff25;
+    height: 2px;
+}
+footer {
+    background-color: #272727;
+    margin: 0;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #55B17F;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.navSticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.navLinks {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.slogoncontainer {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 200px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 200px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linkList {
+    margin: 15px;
+}
+
+.btnStyle{
+    background-color: #55B17F;
+    border: transparent;
+    padding: 15px 25px 15px 25px;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btnStyle:hover{
+    background-color: #075329;
+}

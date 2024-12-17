@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="wwwroot/Icons/icon-logo.png">
+        <link rel="stylesheet" href="./Styles/cartPage.css">
+        <link rel="stylesheet" href="./style/generalizationStyle.css">
+
+        <title>Candleaf: Cart Page</title>
+    </head>
+    <body>
+        <nav id="navbar">
+            <img src="assets\logo.png">
+            <div id="navLinks">
+                <a class="roboto-medium-16" href="./homePage.html">Home</a>
+                <a class="roboto-medium-16">Contact Us</a>
+            </div>
+    
+            <div id="navActions">
+                <a class="roboto-medium-16" href="#">Ahmed</a>
+                 <div><span class="CounterCart" id="CounterCart"></span><img src="assets/Cart.png"></div>
+            </div>
+        </nav>
+        <main>
+            <section class="containerSection">
+                <div>
+                    <h2>Your cart items</h2>
+                </div>
+
+                <div id="cart-card-container">
+
+
+                    
+                </div>
+               
+                <div class="checkOut">
+                    <p>Total Amount : <span id="total-price"></span></p>
+                    <a href="./ordaredShipped.htm"><button class="btnStyle" id="buy-now-btn">BUY NOW</button></a>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <hr>
+            <div id="footerContainer">
+                <div id="footerLogo-container">
+                    <img id="footerLogo" src="assets/footer-logo.png">
+                    <span>Your natural candle made for your home and for your wellness.</span>
+                </div>
+                <div id="footerDetails">
+                    <p style="color: #56B280;">Discovery</p>
+                    <p style="color: #56B280;">About</p>
+                    <p style="color: #56B280;">Info</p>
+                    <p>New season</p>
+                    <p>Help</p>
+                    <p>Contact us</p>
+                    <p>Most searched</p>
+                    <p>Shipping</p>
+                    <p>Privacy Policies</p>
+                    <p>Most selled</p>
+                    <p>Affiliate</p>
+                    <p>Terms & Conditions</p>
+                </div>
+            </div>
+            <div style="display: flex;justify-content: end;padding-top: 60px;">
+                <a href="#top">
+                    <img src="assets/navigation.gif" alt="arrow" style="border-radius: 5px;width: 40px; ">
+                </a>
+            </div>
+        </footer>
+        <script src="./scripts/cartPage.js"></script>
+    </body>
+</html>
