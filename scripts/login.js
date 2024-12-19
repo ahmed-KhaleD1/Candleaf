@@ -32,7 +32,7 @@ submitBtnElement.addEventListener("click", function (event) {
         usrEmailInputElementFlag = true;
     }
 
-    if (!passwordElement.value && passwordElement.value.length < 8) {
+    if ( passwordElement.value.length < 8) {
         ErrorSpanElement[2].style.display = "block";
         ErrorSpanElement[2].innerText = "Please Enter valid Password ";
         passwordFlag = false;
@@ -41,7 +41,7 @@ submitBtnElement.addEventListener("click", function (event) {
         passwordFlag = true;
     }
 
-    if (!confirmPasswordElement.value && confirmPasswordElement.value.length < 8) {
+    if ( confirmPasswordElement.value.length < 8) {
         ErrorSpanElement[3].style.display = "block";
         ErrorSpanElement[3].innerText = "Please Enter valid Confirm Password";
         confirmPasswordFlag = false;
@@ -50,12 +50,11 @@ submitBtnElement.addEventListener("click", function (event) {
         confirmPasswordFlag = true;
     }
 
-    if (confirmPasswordFlag && passwordFlag) {
-        if (confirmPasswordElement.value !== passwordElement.value) {
+    if (confirmPasswordElement.value !== passwordElement.value) {
             ErrorSpanElement[4].style.display = "block";
             ErrorSpanElement[4].innerText = "Password and Confirm Password Not Matched!";
             confirmPasswordFlag=false;
-        }
+        
     } else {
         ErrorSpanElement[4].style.display = "none";
         confirmPasswordFlag = true;
